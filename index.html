@@ -4,26 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buildit - Web Design & Development Agency</title>
-    <!-- Google Fonts -->
+
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,700,900|Source+Serif+Pro:400,700&display=swap"
       rel="stylesheet"
     />
-    <!-- Font Awesome -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-    <!-- AOS Animation Library -->
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- Bootstrap CSS -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <!-- Custom CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="Buildit.css" />
   </head>
+
   <body data-spy="scroll" data-target=".navbar" data-offset="300">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -85,7 +90,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 text-center" data-aos="fade-up">
-            <h1>🚀 Elevate Your Brand with Stunning Websites</h1>
+            <h1>Elevate Your Brand with Stunning Websites</h1>
             <p>Custom-Built Websites That Convert, Engage, and Inspire.</p>
             <a href="#contact" class="btn btn-primary">Get in touch</a>
           </div>
@@ -168,68 +173,37 @@
       </div>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="work" class="portfolio">
-      <div class="container">
+      <div class="containr">
         <div class="section-header text-center" data-aos="fade-up">
           <h2>Our Work</h2>
           <p>Check out some of our recent projects</p>
         </div>
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-          >
-            <div class="portfolio-item">
-              <img
-                src="images/portfolio-1.jpg"
-                alt="Portfolio Item"
-                class="img-fluid"
-              />
-              <div class="portfolio-info">
-                <h4>E-Commerce Website</h4>
-                <p>Web Development</p>
-                <a href="#" class="portfolio-link">View Details</a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-delay="200"
-          >
-            <div class="portfolio-item">
-              <img
-                src="images/portfolio-2.jpg"
-                alt="Portfolio Item"
-                class="img-fluid"
-              />
-              <div class="portfolio-info">
-                <h4>Corporate Website</h4>
-                <p>Web Design</p>
-                <a href="#" class="portfolio-link">View Details</a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-          >
-            <div class="portfolio-item">
-              <img
-                src="images/portfolio-3.jpg"
-                alt="Portfolio Item"
-                class="img-fluid"
-              />
-              <div class="portfolio-info">
-                <h4>Mobile App</h4>
-                <p>App Development</p>
-                <a href="#" class="portfolio-link">View Details</a>
-              </div>
-            </div>
-          </div>
+        <div class="carousel">
+          <div class="text1">Rich Ui/Ux</div>
+          <div class="text2">Seo optimized</div>
+          <button id="backbtn">
+            <i id="Icon" class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button id="nextbtn">
+            <i id="Icon" class="fa-solid fa-arrow-right"></i>
+          </button>
+
+
+          <div class="carousel">
+ 
+  <div class="list">
+    <section class="firstItem">  <img class="item" id="img1"   src="img/img1.svg" alt=""></section>
+  
+    <section class="secondItem"> <img class="item" id="img2" class="secondItem" src="img/img2.svg" alt=""></section>
+   
+    <section class="thirdItem"> <img class="item" id="img3" class="thirdItem" src="img/img3.svg" alt=""></section>
+   
+  </div>
+
+</div>
+
+
         </div>
       </div>
     </section>
@@ -238,7 +212,7 @@
     <section id="about" class="about">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6" data-aos="fade-right">
+          <div class="col-lg-6 flex" data-aos="fade-right">
             <img
               src="images/about-image.jpg"
               alt="About Us"
